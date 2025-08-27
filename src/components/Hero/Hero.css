@@ -1,0 +1,134 @@
+.hero-wrapper {
+  color: white;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 2rem;
+}
+
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /* keep them vertically aligned */
+  flex-wrap: nowrap;     /* prevent image dropping below */
+}
+
+
+/* left side */
+.hero-left {
+  flex: 1;   /* take remaining space */
+  gap: 3rem;
+}
+/* right side */
+.hero-right {
+  flex: 1;             /* balance with left */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-title {
+  position: relative;
+  z-index: 1;
+}
+.hero-title > h1 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+.orange-circle {
+  height: 4rem;
+  width: 4rem;
+  background: var(--orange-gradient);
+  border-radius: 999px;
+  position: absolute;
+  right: 28%;
+  top: -10%;
+  z-index: -1;
+}
+.search-bar {
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid rgba(120, 120, 120, 0.374);
+  padding: 0.5rem 1rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.search-bar > input {
+  border: none;
+  outline: none;
+}
+.stats{
+    width: 100%;
+    justify-content: space-between;
+}
+.stat>:nth-child(1)
+{
+    font-size: 2rem;
+}
+.stat>:nth-child(1)>:last-child{
+    color: orange;
+}
+/* right side */
+
+.image-container {
+  width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.12);
+  transition: opacity 1s ease-in-out;
+}
+.image-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* dots for carousel */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: --background 0.3s ease;
+}
+
+.dot.active {
+  background: orange;
+}
+
+
+/* mobile screens */
+@media  (max-width: 640px){
+  .hero-container{
+    margin-top: 2rem;
+  }
+  .hero-title>h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .image-container{
+    width: 95%;
+    height: 25rem;
+  }
+  .stats{
+    justify-content: center;
+    gap: 1.5rem;
+    font-weight: wrap;
+  }
+  .stat>:nth-child(1){
+    font-size: 1.5rem;
+  }
+  .stat>:nth-child(2)
+  {
+    font-size: 0.8rem;
+  }
+}
