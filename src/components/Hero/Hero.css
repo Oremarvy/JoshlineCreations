@@ -125,18 +125,20 @@
     margin-top: 2rem;
   }
 
+ 
   .image-container {
-    width: 100%;          /* take full width */
-    max-width: 22rem;     /* limit size so it’s not huge */
-    height: auto;         /* auto height to keep ratio */
-    border-radius: 2rem;  /* smaller rounded corners */
+    width: 100%;      
+    max-width: 22rem;
+    height: 25rem;     /* fixed height for consistency */
+    border-radius: 2rem;
   }
 
   .image-container > img {
     width: 100%;
-    height: auto;         /* maintain natural aspect ratio */
-    object-fit: contain;  /* avoid cropping on mobile */
+    height: 100%;
+    object-fit: cover;  /* fills container, crops if needed */
   }
+
 }
 
 
