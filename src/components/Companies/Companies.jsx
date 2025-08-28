@@ -11,9 +11,10 @@ const Companies = () => {
     </div>
       <div className="paddings innerWidth flexCenter c-container" >
         <img src="./MTN-Logo.png" alt="" />
-        <img src="./dangote.jpg" alt="" />
-        <img src="./golden_penny-removebg-preview.png" alt="" />
+        <img src="./IMG-20250828-WA0100.jpg" alt="" />
+        <img src="./IMG-20250828-WA0101.jpg" alt="" />
         <img src="./honeywell-removebg-preview.png" alt="" />
+        <img src="IMG-20250828-WA0102.jpg" alt="" />
         <img src="./anmut-nursing.jpg" alt="" />
         <img src="./1(3).jpg" alt="" />
         <img src="./2.jpg" alt="" />
