@@ -27,10 +27,10 @@ const Contact = () => {
               </div>
               <div className="flexColStart detail">
                 <span className="primaryText">Call</span>
-                <span className="secondaryText">+234 818 931 3873</span>
+                <span className="secondaryText">+234 808 153 5004</span>
               </div>
             </div>
-            <a href="tel:+2348182223873" className="flexCenter button">
+            <a href="tel:+2348081535004" className="flexCenter button">
               Call now
             </a>
           </div>
@@ -88,10 +88,10 @@ const Contact = () => {
               </div>
               <div className="flexColStart detail">
                 <span className="primaryText">Message</span>
-                <span className="secondaryText">+234 818 931 3873</span>
+                <span className="secondaryText">+234 808 153 5004</span>
               </div>
             </div>
-            <a href="sms:+2348189313873" className="flexCenter button">
+            <a href="sms:+2348081535004" className="flexCenter button">
               Message now
             </a>
           </div>
