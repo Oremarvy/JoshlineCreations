@@ -25,7 +25,7 @@
     display: block;
   }
   .h-menu {
-    color: var(--black);
+    color: #9c5d4a;
     position: absolute;
     gap: 2rem;
     font-weight: 500;
