@@ -1,7 +1,7 @@
 :root {
   --primary: #d2af89;
   --secondary: #f5e9dd;
-  --black: #d2af89;
+  --black: #ffff;
   --blue-gradient: linear-gradient(97.05deg, #4e2425 3.76%, #b68c58 100%);
   --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
   --blue: #9c5d4a;
@@ -15,6 +15,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  color: #9c5d4a;
 }
 a {
   color: inherit;
